@@ -1,10 +1,10 @@
-day = "day1"
+
 isTest = False
 
 if isTest:
-    input = "{}/testInput2.txt".format(day)
+    input = "testInput2.txt"
 else:
-    input = "{}/input.txt".format(day)
+    input = "input.txt"
 
 f = open(input, "r")
 lines = f.readlines()
